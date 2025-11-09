@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Wizfred Kitchen</title>
+    <link
+      rel="icon"
+      type="image/jpg"
+      href="img/logo.jpg"
+      style="width: 35px; height: 35px"
+    />
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <!-- <div class="container"> -->
+    <header id="header" class="header">
+      <div id="the-brand">
+        <img src="/img/logo.jpg" alt="WIzfred Kitchen Logo" />
+        <p class="brand-name">Wizfred Kitchen</p>
+      </div>
+      <button class="hamburger" id="nav-btn">
+        <i class="fas fa-bars"></i>
+      </button>
+      <nav class="nav">
+        <ul class="nav-list">
+          <li>
+            <a href="#home-pg">Home</a>
+          </li>
+          <li>
+            <a href="#food-container">Menu</a>
+          </li>
+          <li>
+            <a href="#about">About</a>
+          </li>
+          <li>
+            <a href="#contact">Contact</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <section id="home-pg" class="home-pg">
+      <img src="img/smoky-rice.pin.jpg" alt="Rice Background" />
+
+      <div class="overlay-text">
+        <h1>
+          Purely Homemade Goodness
+          <span class="orange-text" style="color: oklch(0.646 0.222 41.116)"
+            >Delivered Fresh</span
+          >
+        </h1>
+        <p>
+          Experience the authentic taste of home with our varieties of lovingly
+          prepared meals, made fresh daily with the finest ingredients.
+        </p>
+
+        <a href="#food-container">
+          <button class="overlay-button menu-button">Explore Menu</button>
+        </a>
+
+        <a href="#contact">
+          <button class="overlay-button order-button">Order now</button>
+        </a>
+      </div>
+    </section>
+
+    <section id="food-container" class="food-container">
+      <div class="fcontainer">
+        <h2 class="fcontainer-name">Food Menu</h2>
+        <p>
+          Discover our wide variety of homemade meals, each prepared with love
+          and the finest ingredients. Click on any category to explore our
+          delicious options.
+        </p>
+      </div>
+
+      <div class="menu-section">
+        <h3> Best sellers</h3>
+
+        <div class="food-category">
+          <article id="jollof-rice" class="food-card">
+            <input class="price-tag" type="button" value="₦1000" />
+            <img src="img/jollof_fx.jpg" alt="Rice" />
+            <p class="card-name">Jollof Rice</p>
+            <p class="food-caption">
+              Discover rice dishes that satisfy every craving
+            </p>
+          </article>
+
+          <article id="native-rice" class="food-card">
+            <input class="price-tag" type="button" value="₦1000" />
+            <img src="img/native-rice.pin.jpg" alt="Native Rice" />
+            <p class="card-name">Native Rice</p>
+            <p class="food-caption">
+              Saucy, savory spaghetti that hits all the right notes.
+            </p>
+          </article>
+
+          <article id="pineapple-rice" class="food-card">
+            <input class="price-tag" type="button" value="₦1000" />
+            <img src="img/pineapple-rice.pin.jpg" alt="Pineapple Rice" />
+            <p class="card-name">Pineapple Rice</p>
+            <p class="food-caption">
+              Saucy, savory spaghetti that hits all the right notes.
+            </p>
+          </article>
+
+          <article id="ofada-rice" class="food-card">
+            <input class="price-tag" type="button" value="₦1000" />
+            <img src="img/ofada-sauce2.jpg" alt="Ofada Sauce" />
+            <p class="card-name">Ofada Sauce</p>
+            <p class="food-caption">
+              Saucy, savory spaghetti that hits all the right notes.
+            </p>
+          </article>
+          </div>
+
+        <!-- SOUP SECTION -->
+        <div class="menu-section"> 
+          <h3>Soup Packages</h3>
+          <div class="food-category">
+            <article id="egusi" class="food-card">
+              <input class="price-tag" type="button" value="₦1000" />
+              <img src="img/egusi_fx.png" alt="Soup" />
+              <p class="card-name">Egusi Soup</p>
+              <p class="food-caption">
+                Steaming bowls of comfort. Rich, hearty soups bursting with traditon
+                and taste.
+              </p>
+            </article>
+
+            <article id="jollof-spag" class="food-card">
+              <input class="price-tag" type="button" value="₦1000" />
+              <img src="img/spag_fx.jpg" alt="Jollof Spaghetti" />
+              <p class="card-name">Jollof Spaghetti</p>
+              <p class="food-caption">
+                Saucy, savory spaghetti that hits all the right notes.
+              </p>
+            </article>
+
+            <article id="native-spag" class="food-card">
+              <input class="price-tag" type="button" value="₦1000" />
+              <img src="img/native-spag.jpg" alt="Native Spaghetti" />
+              <p class="card-name">Native Spaghetti</p>
+              <p class="food-caption">
+                Saucy, savory spaghetti that hits all the right notes.
+              </p>
+            </article>
+
+            <article id="noodles" class="food-card">
+              <input class="price-tag" type="button" value="₦1000" />
+              <img src="img/vermici-noodles.jpg" alt="Vermici Noodles" />
+              <p class="card-name">Vermicilli Noodles</p>
+              <p class="food-caption">
+                Saucy, savory spaghetti that hits all the right notes.
+              </p>
+            </article>
+          </div>
+        </div>
+
+          <!-- COMBO PACKAGES -->
+        
+        <div class="menu-section">
+          <h3> Combo Packages</h3>
+        
+          <div class="food-category">
+          <article id="penne-pasta" class="food-card">
+            <input class="price-tag" type="button" value="₦1000" />
+            <img src="img/penne.pin.jpg" alt="Penne- Pasta" />
+            <p class="card-name">Penne- Pasta</p>
+            <p class="food-caption">
+              Saucy, savory spaghetti that hits all the right notes.
+            </p>
+          </article>
+
+          <article id="yam-es" class="food-card">
+            <input class="price-tag" type="button" value="₦1000" />
+            <img src="img/yam_fx .jpg" alt="Yam & Egg Sauce" />
+            <p class="card-name">Yam & Egg Sauce</p>
+            <p class="food-caption">
+              Saucy, savory spaghetti that hits all the right notes.
+            </p>
+          </article>
+
+          <article id="potato-es" class="food-card">
+            <input class="price-tag" type="button" value="₦1000" />
+            <img
+              src="img/potatoes-with-egg-sauce.jpg"
+              alt="Potatoes with egg sauce"
+            />
+            <p class="card-name">Potato with Egg Sauce</p>
+            <p class="food-caption">Potatoes served with rich sauces.</p>
+          </article>
+
+          <article id="fries" class="food-card">
+            <input class="price-tag" type="button" value="₦1000" />
+            <img src="img/fries-omellette.jpg" alt="Fries & Omelette" />
+            <p class="card-name">Fries & Omelette</p>
+            <p class="food-caption">
+              Freshly baked, perfectly flaky. Sweet and savory pastries made to be
+              delight.
+            </p>
+          </article>
+          </div>
+        </div>  
+
+        <!-- <article id="chicken" class="food-card">
+          <input class="price-tag" type="button" value="₦1000" />
+          <img src="img/chicken.pin.jpg" alt=" Sauced Chicken" />
+          <p class="card-name">Sauced Chicken</p>
+          <p class="food-caption">
+            Saucy, savory spaghetti that hits all the right notes.
+          </p>
+        </article> -->
+        
+      
+    </section>
+
+    <section id="about" class="about-container">
+      <div class="about-img">
+        <img src="/img/chef-wiz.jpg" alt="" />
+      </div>
+
+      <div class="about-text">
+        <h3>Meet Chef Wizfred</h3>
+        <p>
+          Meet Chef Wizfred Behind every dish is a story, and behind every story
+          is a chef with purpose. I am Chef Wizfred, and cooking is my language
+          of care. <br> <br>In my kitchen, food is never rushed, never ordinary. Every
+          meal is a craft — prepared with intention, guided by quality, and
+          designed to bring comfort and satisfaction. I believe food should not
+          only feed the body but also warm the spirit and create moments worth
+          remembering. <br> <br> When you meet Chef Wizfred, you meet more than a cook —
+          you meet a promise: that every plate will carry heart, detail, and the
+          joy of truly good food. Whether it’s a family gathering, a private
+          dinner, or a special event, I am available to bring this experience to
+          your table through bookings and events.
+        </p>
+      </div>
+    </section>
+
+    <section id="contact">
+      <div id="contact-head">
+        <h2>Get in Touch</h2>
+        <p>
+          Bring the taste of homemade goodness to your next event, contact us
+          for bookings and inquiries.
+        </p>
+      </div>
+      <div class="contact-container">
+        <div id="contact-area">
+          <h3>Contact Information</h3>
+          <div id="contact-list">
+            <p class="contact-icon">
+              <i class="fab fa-whatsapp"></i> WhatsApp:
+              <span class="icon-text">0812 616 9285</span>
+            </p>
+            <p class="contact-icon">
+              <i class="fas fa-phone"></i> Phone:
+              <span class="icon-text">0812 616 9285</span>
+            </p>
+            <p class="contact-icon">
+              <i class="fas fa-envelope"></i> Email:
+              <span class="icon-text">okoliwisdom35@gmail.com</span>
+            </p>
+            <p class="contact-icon">
+              <i class="fas fa-map-marker-alt"></i> Location:
+              <span class="icon-text"
+                >Teezers Junction, Off School Gate, Ifite-Awka</span
+              >
+            </p>
+          </div>
+        </div>
+
+        <div class="feedback-area">
+          <h3>Bookings & Inquiries</h3>
+          <form onsubmit="sendToWhatsApp(event)">
+            <label for="name"> Name:</label>
+            <input type="text" id="name" /><br /><br />
+            <label for="phone"> Phone:</label>
+            <input type="text" id="phone" /><br /><br />
+            <label for="email"> Email:</label>
+            <input type="email" id="email" /><br /><br />
+            <label for="message"> Message:</label>
+            <textarea id="message"></textarea><br /><br />
+            <button id="submit-btn" type="submit">Send Message</button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <footer id="footer" class="footer">
+      <div id="footer-text">
+        <h3>Wizfred Kitchen</h3>
+        <p>
+          Bringing you the authentic taste of home with our varieties of
+          lovingly prepared meals, made fresh daily with the finest ingredients.
+        </p>
+      </div>
+    </footer>
+
+    <script src="wizfred.js"></script>
+  </body>
+</html>

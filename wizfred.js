@@ -69,3 +69,13 @@ const navLinks = document.querySelectorAll(".nav-list a");
 
         window.open(url, "_blank");
       }
+      // SKELETON
+      // REPLACE SKELETON WITH REAL IMAGE WHEN LOADED
+document.querySelectorAll(".menu-img").forEach(img => {
+  img.addEventListener("load", () => {
+    const skeleton = img.previousElementSibling;
+    skeleton.style.display = "none";   // hide skeleton
+    img.style.display = "block";       // show real image
+  });
+});
+

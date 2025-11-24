@@ -271,9 +271,9 @@ body {
 }
 
 /* Hide real image until loaded */
-/* .menu-img {
+.menu-img {
   display: none;
-} */
+}
 
 /*menu section */
 

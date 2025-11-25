@@ -113,7 +113,7 @@ body {
 .home-pg img {
   position: relative;
   z-index: 1;
-  width: 750px;
+  /* width: 750px; */
   height:100%;
 }
 
@@ -298,7 +298,7 @@ body {
 }
 .about-img img {
   width: 100%;
-  min-width: 350px;
+  min-width: 340px;
   max-width: 500px;
   height: 100%;
   border-radius: 50%;
@@ -503,8 +503,8 @@ background: linear-gradient(45deg, #FF5F6D, #FFC371); /* Sunset gradient for ema
 .footer-line{
   border-top: 1px solid white;
   /* margin-top: 10px;
-  margin-bottom: 10px; */
-}
+  margin-bottom: 10px; 
+}*/
 .copyright-text{
   width: 100%;
   text-align: center;
@@ -512,6 +512,7 @@ background: linear-gradient(45deg, #FF5F6D, #FFC371); /* Sunset gradient for ema
 .contact-list{
   display: flex;
   gap: 20px;
+  
 }
 .contact-icon i{
   font-size:30px ;
@@ -612,6 +613,7 @@ h1, h2, h3,h4,h5{
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
+    width: 300px;
   }
 
   #contact-head p{
